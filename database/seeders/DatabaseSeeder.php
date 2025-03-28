@@ -14,7 +14,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // $this->call(TarefaSeeder::class);
         $tarefas = [
             ['descricao' => 'Finalizar relatório', 'data_criacao' => '2025-03-20', 'data_prevista' => '2025-03-27', 'data_encerramento' => null, 'situacao' => 'pendente'],
             ['descricao' => 'Revisar código', 'data_criacao' => '2025-03-18', 'data_prevista' => '2025-03-25', 'data_encerramento' => '2025-03-24', 'situacao' => 'concluída'],
